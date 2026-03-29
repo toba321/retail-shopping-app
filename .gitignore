@@ -1,0 +1,55 @@
+# Local notes and reference material
+/referencestore/
+abc
+instructions
+
+# Preserve nested repo backups without tracking them
+app/.git.backup/
+server/.git.backup/
+
+# Dependency directories
+**/node_modules/
+
+# Environment files
+app/.env
+app/.env.local
+server/.env
+server/.env.local
+
+# React Native / Metro
+app/.metro-health-check*
+app/coverage/
+app/.bundle/
+app/android/.gradle/
+app/android/build/
+app/android/app/build/
+app/android/local.properties
+app/android/.cxx/
+app/android/.kotlin/
+app/android/*.iml
+app/ios/build/
+app/ios/Pods/
+app/ios/DerivedData/
+app/**/xcuserdata/
+
+# Nest / TypeScript build output
+server/dist/
+server/coverage/
+server/.nestjs/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
